@@ -15,7 +15,7 @@ This script uses Slurm directives to download mmCIF data from rsync mirrors. It 
    - Modify the script according to the destination directory where files will be downloaded (`/path/to-download-pdb_mmcif-data/`).
 
 2. **Script Execution**:
-   - Submit the script to Slurm using `sbatch script.sh` (replace `script.sh` with your actual script filename).
+   - Submit the script to Slurm using `sbatch script.s` (replace `script.sh` with your actual script filename).
 
 3. **Monitoring**:
    - Check the logs (`Job_%A_%a.out` and `Job_%A_%a.err`) for download progress and errors.
